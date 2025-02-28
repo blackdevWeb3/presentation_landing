@@ -1,7 +1,7 @@
 const How_Alpha_Pool = () => {
   return (
-    <div className="flex  items-center w-full p-54 relative">
-      <div className="w-[50%] text-3xl leading-16">
+    <div className="flex  items-center w-full p-54 max-2xl:p-5 max-2xl:flex-col relative">
+      <div className="w-[50%] max-2xl:w-full max-2xl:text-2xl max-lg:text-center text-3xl leading-16">
         <p className="text-4xl font-extrabold">
           Join the Future of Blockchain with TAR GLOBAL
         </p>

@@ -1,7 +1,7 @@
 const How_Join = () => {
   return (
-    <div className="flex  items-center w-full p-54 relative">
-      <div className="w-[50%] text-3xl leading-16">
+    <div className="flex  items-center w-full p-54 max-2xl:p-10 relative">
+      <div className="w-[50%] max-2xl:w-full text-3xl max-lg:text-xl max-lg:leading-8 leading-16">
         <p className="text-4xl font-extrabold">How to Join?</p>
         <br />
         <p>1. Deposit using any of the accepted payment methods</p>

@@ -1,7 +1,7 @@
 const Mean = () => {
   return (
-    <div className="flex flex-col gap-20 w-full h-auto p-54 relative">
-      <div className="w-[70%] text-2xl ">
+    <div className="flex flex-col gap-20 w-full h-auto p-54 max-2xl:p-10 relative">
+      <div className="w-[70%] max-2xl:w-full text-2xl ">
         <p className="text-3xl font-extrabold pb-5">What This Means for You?</p>
         <p>
           If you’re already staking, your existing stake remains secure.
@@ -23,8 +23,8 @@ const Mean = () => {
           alt="ellipse3"
           className="absolute -translate-y-[30%] -z-10"
         />
-        <div className="w-[50%] text-2xl ml-auto">
-          <p className="text-3xl font-extrabold pb-5">
+        <div className="w-[50%] max-lg:w-full max-lg:text-center max-lg:text-xl text-2xl ml-auto">
+          <p className="text-3xl font-extrabold pb-5 max-lg:text-2xl">
             Join the Future of Blockchain with TAR GLOBAL
           </p>
           <p>
@@ -35,7 +35,7 @@ const Mean = () => {
           </p>
         </div>
       </div>
-      <div className="w-full text-3xl leading-14">
+      <div className="w-full text-3xl leading-14 max-lg:text-2xl max-lg:text-center max-lg:leading-8">
         <p className="text-4xl font-extrabold">
           Solana Blockchain Validator Protocols
         </p>
