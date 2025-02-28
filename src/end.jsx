@@ -1,6 +1,6 @@
 const End = () => {
   return (
-    <div className="flex flex-col gap-10 px-80 py-10 text-center text-3xl leading-12">
+    <div className="w-[80%] flex flex-col gap-10 py-10 text-center text-3xl max-2xl:text-2xl max-lg:text-xl leading-12">
       <p className="text-4xl font-bold">The Future of the Alpha Pool</p>
       <p>
         The Alpha Pool is not a traditional staking plan – it is a strategic

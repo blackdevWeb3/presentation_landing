@@ -1,7 +1,7 @@
 const Why_Join = () => {
   return (
-    <div className="flex  items-center w-full p-54 relative">
-      <div className="w-[50%] text-3xl leading-16 ml-auto">
+    <div className="flex  items-center w-full p-54 max-2xl:p-10 relative max-2xl:text-left">
+      <div className="w-[50%] max-2xl:w-full max-lg:text-xl text-3xl max-2xl:leading-8 leading-16 ml-auto">
         <p className="text-4xl font-extrabold">Why Join the Alpha Pool?</p>
         <br />
         <p>
