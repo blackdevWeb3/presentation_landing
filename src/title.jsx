@@ -1,13 +1,13 @@
 const Title = () => {
   return (
-    <div className="relative text-center w-full h-auto py-20 px-80 max-2xl:px-20 space-y-5 text-2xl">
-      <p className="text-[44px] max-xl:[30px] font-extrabold">
+    <div className="relative text-center w-full h-auto px-[270px] max-2xl:px-[20px] space-y-5 text-2xl">
+      <p className="text-[48px] max-xl:text-[30px] font-[700] leading-[82px] ">
         TAR GLOBAL Validator Pools
       </p>
-      <p className="text-3xl max-lg:2xl font-bold">
+      <p className="text-[30px] max-lg:2xl font-[700] leading-[90px]">
         Understanding the TON Blockchain Validator Pool
       </p>
-      <p className="pt-16 max-lg:pt-4">
+      <p className=" text-[16px] font-[400] leading-[27px] pb-[20px]">
         TON (The Open Network) operates on a highly efficient and scalable
         Proof-of-Stake (PoS) system, where validator pools play a crucial role
         in securing the network and processing transactions. At the core of
