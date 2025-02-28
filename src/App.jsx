@@ -16,7 +16,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="relative min-h-screen max-w-[1900px] flex flex-col items-center justify-center mx-auto">
+    <div className="relative min-h-screen max-w-full flex flex-col items-center justify-center mx-auto">
       <img
         src="assets/ellipse1.png"
         alt="ellipse1"
