@@ -10,8 +10,8 @@ const Footer = () => {
         For more details or to get started, reach out to us
       </p>
       <div className="flex flex-row gap-4 justify-center items-start">
-        <img src={telegram}></img>
-        <img src={phone}></img>
+        <img src={telegram} alt="telegram"></img>
+        <img src={phone} alt="phone"></img>
       </div>
     </div>
   );
