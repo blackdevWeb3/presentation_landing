@@ -19,7 +19,7 @@ const Title = () => {
       <img
         src="assets/ellipse2.png"
         alt="ellipse2"
-        className="absolute right-0 bottom-0 w-64  translate-y-[10%] -z-10"
+        className="absolute right-0 bottom-0 w-64  translate-y-[10%] -z-10 animate-pulse"
       />
     </div>
   );

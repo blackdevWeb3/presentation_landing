@@ -3,3 +3,23 @@
 @tailwind utilities; */
 
 @import "tailwindcss";
+
+@keyframes moveFade {
+    0% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(50px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(100px);
+      opacity: 1;
+    }
+  }
+  
+  .animated-box {
+    animation: moveFade 2s ease-in-out infinite alternate;
+  }
+  

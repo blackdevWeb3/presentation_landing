@@ -21,7 +21,7 @@ const How_Join = () => {
       <img
         src="assets/pic3.png"
         alt="pic1"
-        className="absolute right-[10%] -z-10"
+        className="absolute right-[10%] -z-10 animate-pulse"
       />
       <img
         src="assets/pic3_ellipse.png"
