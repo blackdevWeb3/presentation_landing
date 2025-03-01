@@ -25,9 +25,9 @@ const Mean = () => {
         />
         <div className="flex items-center justify-center">
           <img
-            src="assets/photo_2025-02-28_15-51-16 1.png"
+            src="assets/pic.png"
             alt="e"
-            className="w-[500px] h-[337px]"
+            className="w-[500px] h-[337px] -z-20"
           />
         </div>
 

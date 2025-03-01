@@ -27,7 +27,7 @@ const How_Alpha_Pool = () => {
       <img
         src="assets/pic1.png"
         alt="pic1"
-        className="absolute right-[7%] -z-10"
+        className="absolute right-[7%] -z-10 animate-bounce "
       />
       <img
         src="assets/pic1_ellipse.png"

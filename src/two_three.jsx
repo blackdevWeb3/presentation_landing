@@ -25,7 +25,7 @@ const Two_Three = () => {
             className="w-[40%] h-auto"
           />
         </div>
-        <div className=" flex justify-center items-center w-1/2 max-lg:w-full">
+        <div className="w-1/2 max-lg:w-full max-lg:flex max-lg:justify-center">
           <div className="w-[470px] h-[470px] pb-[7px] pl-[8px] pt-[95px] pr-[88px] bg-[url('assets/rect_angle2.png')] bg-no-repeat overflow-hidden">
             <p className="text-center text-[20px] font-[700] leading-[34px] pb-6">
               Exciting Growth – Approaching the 500K Milestone
