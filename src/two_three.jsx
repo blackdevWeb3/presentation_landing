@@ -1,3 +1,5 @@
+import "./rect.css"
+
 const Two_Three = () => {
   return (
     <div className="flex flex-col gap-16 px-[146px] mt-[70px]  w-full">
@@ -26,7 +28,7 @@ const Two_Three = () => {
           />
         </div>
         <div className="w-1/2 max-lg:w-full max-lg:flex max-lg:justify-center">
-          <div className="w-[470px] h-[470px] pb-[7px] pl-[8px] pt-[95px] pr-[88px] bg-[url('assets/rect_angle2.png')] bg-no-repeat overflow-hidden">
+          <div className="w-[470px] h-[470px] pb-[7px] pl-[8px] pt-[95px] pr-[88px] bg-no-repeat overflow-hidden" id="rect1">
             <p className="text-center text-[20px] font-[700] leading-[34px] pb-6">
               Exciting Growth – Approaching the 500K Milestone
             </p>
@@ -42,7 +44,7 @@ const Two_Three = () => {
       </div>
       <div className="flex max-lg:flex-col max-lg:gap-10 w-full items-center justify-between">
         <div className=" flex justify-center items-center w-1/2 max-lg:w-full">
-          <div className="w-[470px] h-[470px] pl-[51px] pr-[45px] pt-[88px] bg-[url('assets/rect_angle1.png')] bg-no-repeat overflow-hidden px-5 py-20">
+          <div className="w-[470px] h-[470px] pl-[51px] pr-[45px] pt-[88px] bg-no-repeat overflow-hidden px-5 py-20" id="rect">
             <p className="text-center text-[20px] font-[700] leading-[34px] pb-6">
               Dynamic Contract Updates for Sustainability
             </p>
