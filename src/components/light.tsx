@@ -227,10 +227,10 @@ const Light: React.FC = () => {
 
       <div className="w-full flex flex-col items-center md:gap-4 md:flex-row md:mt-20 justify-center relative">
         <div className="relative">
-          <div className="absolute bottom-[2.8rem] left-[24px] md:left-[1.2rem] -z-100">
+          <div className="absolute bottom-[2.8rem] left-[19px] md:left-[25px] -z-100">
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
-            <div className="w-[2px] h-[50px] bg-white"></div>
+            <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
             <div className="w-[2px] h-[50px] bg-white"></div>
             <div className="w-[2px] h-[50px] bg-white"></div>
             <div className="w-[2px] h-[50px] bg-white"></div>
