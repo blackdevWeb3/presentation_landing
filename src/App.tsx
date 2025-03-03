@@ -1,30 +1,21 @@
-// src/App.tsx
-import React from "react";
+// import { useState } from "react";
+import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Light from "./components/light";
 
-const App: React.FC = () => {
+function App() {
+  // const [count, setCount] = useState(0);
+
   return (
-    <div>
-      <Header/>
-      <div className="bg-[url(assets/main-section-bg.png)] bg-cover">
-        <div className="max-w-[1440px] mx-auto w-full">
-          <div className="flex justify-center flex-col">
-              <Hero />
-          </div>
-        </div>
-        </div>
-      <div className="max-w-[1440px] mx-auto w-full">
-        <div className="flex justify-center flex-col">
-          <Light />
-        </div>
-      </div>
+    <div className="w-full">
+      <Header />
+      <Hero />
+      <Light />
+      <Footer />
     </div>
   );
-};
+}
 
 export default App;
-
-
-
