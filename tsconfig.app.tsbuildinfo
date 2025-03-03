@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/dex.tsx","./src/main.tsx","./src/vite-env.d.ts"],"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/useoutside.tsx","./src/vite-env.d.ts","./src/components/footer.tsx","./src/components/header.tsx","./src/components/hero.tsx","./src/components/light.tsx","./src/hooks/themetoggle.tsx","./src/hooks/dropdown.tsx","./src/hooks/useoutsidedetector.tsx"],"version":"5.6.3"}

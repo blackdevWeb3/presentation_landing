@@ -67,7 +67,7 @@ const Light: React.FC = () => {
           <img className="w-auto h-auto mt-6" src={computer} alt="light" />
         </div>
         <div className="text-[15px] tracking-normal leading-6 mt-6 px-6 md:max-w-[754px] md:pl-8">
-          <div className="text-md font-bold md:text-[2rem] md:leading-[4rem]">
+          <div className="text-md font-bold md:text-[2rem] md:leading-[4rem] text-center">
             What This Means for You?
           </div>
           <ul className="list-disc mt-6 md:pl-4">
@@ -229,7 +229,7 @@ const Light: React.FC = () => {
           <img className="w-auto" src={float1} alt="float" />
         </div>
         <div className="relative w-full">
-          <div className="absolute bottom-[2.8rem] left-[24px] md:bottom-[] md:left-[1.2rem] -z-100">
+          <div className="absolute bottom-[2.8rem] left-[24px] md:left-[1.2rem] -z-100">
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
             <div className="w-[2px] h-[50px] bg-white"></div>
@@ -244,34 +244,34 @@ const Light: React.FC = () => {
             </div>
             <div className="flex mb-4 items-center  md:justify-start">
               <PiNumberCircleOneThin className="text-[2.5rem] md:text-[50px] bg-[#1A1165]" />
-              <div className="text-sm leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
+              <div className="text-[12px] leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
                 We will continue adding to the pool until we reach $100M.
               </div>
             </div>
             <div className="flex mb-4 items-center  md:justify-start">
               <PiNumberCircleTwoThin className="text-[2.5rem] md:text-[50px] bg-[#1A1165]" />
 
-              <div className="text-sm leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
+              <div className="text-[12px] leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
                 We reinvest 70% of the profits back into the pool for growth.
               </div>
             </div>
             <div className="flex mb-4 items-center  md:justify-start">
               <PiNumberCircleThreeThin className="text-[2.5rem] md:text-[50px] bg-[#1A1165]" />
 
-              <div className="text-sm leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
+              <div className="text-[12px] leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
                 Investors receive 30% of the profits as
               </div>
             </div>
             <div className="flex mb-4 items-center  md:justify-start">
               <PiNumberCircleFourThin className="text-[2.5rem] md:text-[50px] bg-[#1A1165]" />
 
-              <div className="text-sm leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
+              <div className="text-[12px] leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
                 Deposits are locked until we reach $100M.
               </div>
             </div>
             <div className="flex mb-4 items-center  md:justify-start">
               <PiNumberCircleFiveThin className="text-[2.5rem] md:text-[50px] bg-[#1A1165]" />
-              <div className="text-sm leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
+              <div className="text-[12px] leading-[20px] ml-2 md:text-[24px] md:leading-[34px] max-w-[320px]">
                 Earnings After Reaching $100M
               </div>
             </div>
@@ -291,7 +291,7 @@ const Light: React.FC = () => {
 
         <div className=" text-sm mt-4 w-full md:flex md:justify-between md:mt-24">
           <div>
-            <MdCheckCircleOutline className="text-[2.25rem] md:text-[80px]" />
+            <MdCheckCircleOutline className="text-[2.25rem] md:text-[50px]" />
             <div className="w-[290px] text-[14px] leading-[24px] sm:text-[20px] sm:leading-[34px]">
               Liquidity & Growth – The Alpha Pool is designed to build
               liquidity, strengthening our validator position.
