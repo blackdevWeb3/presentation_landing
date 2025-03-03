@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
 
   return (
     <>
-      <div className="relative  mt-8 bg-gray-800 py-10 px-8">
+      <div className="relative  mt-8 bg-[#FFFFFF17] border-t border-t-[#FFFFFF78] py-10 px-8">
         <div className="flex justify-between">
           <div className="w-[51px] md:w-[75px]">
             <img src={logo} alt="logo" className="w-auto" />
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             <MdWhatsapp className="text-[22px] md:text-[2rem] text-white" />
           </div>
         </div>
-        <div className="md:absolute md:left-1/2 md:top-1/4 md:-translate-x-1/2 md:text-[15px] md:leading-[25px] text-white text-center mt-4 text-sm leading-[20px]">
+        <div className="md:absolute md:left-1/2 md:top-1/4 md:-translate-x-1/2 md:text-[15px] md:leading-[25px] text-white text-center mt-4 text-[12px] leading-[20px]">
           For more details or to get started, reach out to us
         </div>
       </div>
