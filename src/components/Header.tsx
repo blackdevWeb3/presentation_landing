@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   const tmp: any = useRef(null);
   const [isOpen, setIsOpen]: any = useState(0);
   return (
-    <header className="fixed top-0 w-full bg-[#FFFFFF17] border-b-1 border-b-[#FFFFFF78] z-10 backdrop-blur-[5px] flex justify-between p-[30px] pb-[20px]">
+    <header className="fixed top-0 w-full bg-[#FFFFFF17] border-b border-b-[#FFFFFF78] z-10 backdrop-blur-[5px] flex justify-between p-[30px] pb-[20px]">
       <div className=" opacity-70 md:opacity-100 w-[60px] flex justify-center items-center">
         <img className="w-full" src={logo} alt="TAR Logo" />
       </div>

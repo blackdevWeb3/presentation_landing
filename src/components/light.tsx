@@ -1,7 +1,7 @@
 import lightbulb from "../assets/lightbulb.png";
 
 import computer from "../assets/Computer.png";
-// import rect29 from "../assets/Rectangle29.png";
+import rect29 from "../assets/Rectangle29.png";
 import arrow from "../assets/arrow.svg";
 import arrow1 from "../assets/arrow_1.svg";
 import float from "../assets/float.png";
@@ -63,8 +63,9 @@ const Light: React.FC = () => {
       </div>
       <div className="flex justify-between"></div>
       <div className="flex flex-col justify-center items-center md:flex-row">
-        <div className="flex justify-center w-[174px] md:w-[351px]">
-          <img className="w-auto h-auto mt-6" src={computer} alt="light" />
+        <div className="flex justify-center items-center w-[174px] md:w-[351px]">
+          <img src={rect29} className="absolute z-[-10]" />
+          <img className="w-auto h-auto mt-6 animate-pulse" src={computer} alt="light" />
         </div>
         <div className="text-[15px] tracking-normal leading-6 mt-6 px-6 md:max-w-[754px] md:pl-8">
           <div className="text-md font-bold md:text-[2rem] md:leading-[4rem] text-center">
@@ -224,11 +225,8 @@ const Light: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col items-center md:gap-4 md:flex-row-reverse md:mt-20 justify-center">
-        <div className="w-[206px] md:w-[441px] mt-10 md:flex md:justify-center md:items-center">
-          <img className="w-auto" src={float1} alt="float" />
-        </div>
-        <div className="relative w-full">
+      <div className="w-full flex flex-col items-center md:gap-4 md:flex-row md:mt-20 justify-center relative">
+        <div className="relative">
           <div className="absolute bottom-[2.8rem] left-[24px] md:left-[1.2rem] -z-100">
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
@@ -277,6 +275,10 @@ const Light: React.FC = () => {
             </div>
           </div>
         </div>
+        <div className="w-[206px] md:w-[441px] mt-10 flex justify-center items-center">
+          <img src={rect29} className="absolute z-[-10]"></img>
+          <img className="w-auto animate-bounce" src={float1} alt="float" />
+        </div>
       </div>
       <div className="mt-10">
         <div className="font-bold md:text-[2.25rem] md:text-center md:leading-[4.5rem] md:font-[800]">
@@ -313,8 +315,9 @@ const Light: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center md:flex-row">
-          <div className="flex justify-center w-[174px] md:w-[262px]">
-            <img className="w-auto h-auto mt-6" src={float} alt="light" />
+          <div className="flex justify-center items-center w-[174px] md:w-[262px]">
+            <img src={rect29} className="absolute z-[-10]"></img>
+            <img className="w-auto h-auto mt-6 animate-bounce" src={float} alt="light" />
           </div>
           <div className="text-[15px] tracking-normal leading-6 mt-6 px-6 md:max-w-[754px] md:pl-20 md:pt-10 md:flex flex-col text-center md:justify-center">
             <div className="text-md font-bold mt-6 md:text-[2rem] md:leading-[4rem]">
