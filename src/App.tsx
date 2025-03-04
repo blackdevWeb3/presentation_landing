@@ -9,10 +9,16 @@ function App() {
   // const [count, setCount] = useState(0);
 
   return (
-    <div className="w-full">
+    <div>
       <Header />
-      <Hero />
-      <Light />
+      <div className="w-full bg-[url(assets/main-section-bg.png)] bg-cover ">
+        <div className="w-full max-w-[1440px] m-auto md:h-[831px]">
+          <Hero />
+        </div>
+      </div>
+      <div className="w-full max-w-[1440px] m-auto">
+        <Light />
+      </div>
       <Footer />
     </div>
   );
