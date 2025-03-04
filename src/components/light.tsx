@@ -18,9 +18,9 @@ import {
 } from "react-icons/pi";
 const Light: React.FC = () => {
   return (
-    <div className="w-full p-6 md:px-[140px] ">
-      <div className="flex flex-col-reverse md:flex-row justify-center md:justify-between items-center text-center">
-        <div className="text-[15px] md:text-[1.5rem] md:leading-[34px] md:text-start md:max-w-[644px] tracking-normal leading-6 mt-6">
+    <div className="w-full pt-[46px] px-[38px] md:pt-[95px] md:px-[140px] ">
+      <div className="flex flex-col-reverse gap-[35px] md:flex-row justify-center md:justify-between items-center text-center">
+        <div className="text-[15px] md:text-[20px] md:leading-[34px] md:text-start md:max-w-[644px] tracking-normal leading-6">
           As a leader in blockchain validation, TAR GLOBAL owns and manages a
           robust TON validator pool, helping to maintain network integrity while
           offering lucrative staking opportunities for participants.
@@ -29,7 +29,7 @@ const Light: React.FC = () => {
           <img className="w-auto h-auto" src={lightbulb} alt="light" />
         </div>
       </div>
-      <div className="mt-10 flex flex-col md:flex-row gap-[1rem] md:gap-[9rem] justify-center">
+      <div className="mt-10 md:mt-[95px] flex flex-col md:flex-row gap-[1rem] md:gap-[9rem] justify-center">
         <div className="w-full text-sm md:text-[1.5rem] md:leading-[34px] bg-[#FFFFFF29] rounded-[20px] px-[1.5rem] md:px-[1.75rem] py-[3rem] md:py-[4.25rem] border border-gray-500 max-w-[472px]">
           <div className="font-bold">
             Dynamic Contract Updates for Sustainability
@@ -51,19 +51,19 @@ const Light: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="font-bold text-center text-md mt-8 md:px-16 md:text-[22px] md:leading-[37px]">
+      <div className="font-bold text-center text-md mt-8 md:px-16 md:text-[22px] md:leading-[37px] md:mt-[95px]">
         Each contract update may bring adjustments in staking rates and
         duration, depending on the agreements and market conditions. This
         ensures that our validator pool remains profitable, sustainable, and
         aligned with TON’s long-term vision.
       </div>
-      <div className="w-full mt-6">
+      <div className="w-full mt-6 md:mt-[95px] md:mb-[95px]">
         <img src={arrow} alt="" className="w-full md:hidden" />
         <img src={arrow1} alt="" className="w-full hidden md:block" />
       </div>
       <div className="flex justify-between"></div>
-      <div className="flex flex-col justify-center items-center md:flex-row">
-        <div className="flex justify-center items-center w-[174px] md:w-[351px]">
+      <div className="flex flex-col justify-between items-center md:flex-row">
+        <div className="flex justify-center items-center w-[174px] md:w-[351px] -z-10">
           <img src={rect29} className="absolute z-[-10]" />
           <img className="w-auto h-auto mt-6 animate-pulse" src={computer} alt="light" />
         </div>
@@ -92,7 +92,7 @@ const Light: React.FC = () => {
           <div className="text-[13px] leading-[23px]"></div>
         </div>
       </div>
-      <div className="text-center md:text-start mt-6">
+      <div className="md:flex flex-col gap-[26px] text-center md:text-start mt-6 md:mt-[70px]">
         <div className="font-bold md:text-[2rem] md:leading-[3.75rem] md:font-[800] ">
           Join the Future of Blockchain with TAR GLOBAL
         </div>
@@ -103,7 +103,7 @@ const Light: React.FC = () => {
           exciting journey toward a decentralized future!
         </div>
       </div>
-      <div className="text-center mt-10">
+      <div className="text-center mt-10 md:mt-[201px] md:flex flex-col gap-[26px]">
         <div className="font-bold md:text-[2.25rem] md:leading-[4.5rem] md:font-[800]">
           Solana Blockchain Validator Protocols
         </div>
@@ -112,9 +112,9 @@ const Light: React.FC = () => {
           transactions, operating on advanced blockchain protocols:
         </div>
       </div>
-      <div>
+      <div className="md:mt-[95px]">
         <div className="md:hidden flex overflow-auto gap-4 py-3">
-          <div className="border border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
+          <div className="border bg-[#FFFFFF21] border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
             <div className="font-bold text-[12px] leading-[1rem]">
               Tower BFT Consensus :
             </div>
@@ -123,7 +123,7 @@ const Light: React.FC = () => {
               decision-making.
             </div>
           </div>
-          <div className="border border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
+          <div className="border bg-[#FFFFFF21] border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
             <div className="font-bold text-[12px] leading-[1rem]">
               Gossip Protocol :
             </div>
@@ -131,7 +131,7 @@ const Light: React.FC = () => {
               Allows validators to share updates across the network rapidly.
             </div>
           </div>
-          <div className="border border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
+          <div className="border bg-[#FFFFFF21] border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
             <div className="font-bold text-[12px] leading-[1rem]">
               Gulf Stream Protocol :
             </div>
@@ -140,7 +140,7 @@ const Light: React.FC = () => {
               processing.
             </div>
           </div>
-          <div className="border border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
+          <div className="border bg-[#FFFFFF21] border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
             <div className="font-bold text-[12px] leading-[1rem]">
               Proof-of-History (PoH) :
             </div>
@@ -149,7 +149,7 @@ const Light: React.FC = () => {
               latency.
             </div>
           </div>
-          <div className="border border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
+          <div className="border bg-[#FFFFFF21] border-gray-600 min-w-[175px] h-[128px] rounded-[20px] p-2">
             <div className="font-bold text-[12px] leading-[1rem]">
               Turbine Protocol :
             </div>
@@ -162,7 +162,7 @@ const Light: React.FC = () => {
         <div>
           <div className="hidden md:block">
             <div className="flex gap-[44px]">
-              <div className="border border-gray-600 w-1/2 rounded-[20px] text-[1.5rem] leading-[41px] px-7 py-8">
+              <div className="border bg-[#FFFFFF21] border-gray-600 w-1/2 rounded-[20px] text-[1.5rem] leading-[41px] px-7 py-8 ">
                 <div className="font-bold text-[24px] leading-[41px]">
                   Tower BFT Consensus :
                 </div>
@@ -171,7 +171,7 @@ const Light: React.FC = () => {
                   decision-making.
                 </div>
               </div>
-              <div className="border border-gray-600 w-1/2 rounded-[20px] text-[1.5rem] leading-[41px] px-7 py-8">
+              <div className="border bg-[#FFFFFF21] border-gray-600 w-1/2 rounded-[20px] text-[1.5rem] leading-[41px] px-7 py-8">
                 <div className="font-bold text-[24px] leading-[41px]">
                   Gossip Protocol :
                 </div>
@@ -180,8 +180,8 @@ const Light: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-[51px] mt-6">
-              <div className="border border-gray-600 rounded-[20px] px-7 py-8">
+            <div className="flex gap-[51px] mt-[30px]">
+              <div className="border bg-[#FFFFFF21] border-gray-600 rounded-[20px] px-7 py-8">
                 <div className="font-bold text-[26px] leading-[45px]">
                   Gulf Stream Protocol :
                 </div>
@@ -190,7 +190,7 @@ const Light: React.FC = () => {
                   processing.
                 </div>
               </div>
-              <div className="border border-gray-600 rounded-[20px] px-7 py-8">
+              <div className="border bg-[#FFFFFF21] border-gray-600 rounded-[20px] px-7 py-8">
                 <div className="font-bold text-[26px] leading-[45px]">
                   Proof-of-History (PoH) :
                 </div>
@@ -199,7 +199,7 @@ const Light: React.FC = () => {
                   reducing latency.
                 </div>
               </div>
-              <div className="border border-gray-600 rounded-[20px] px-7 py-8">
+              <div className="border bg-[#FFFFFF21] border-gray-600 rounded-[20px] px-7 py-8">
                 <div className="font-bold text-[26px] leading-[45px]">
                   Turbine Protocol :
                 </div>
@@ -213,7 +213,7 @@ const Light: React.FC = () => {
         </div>
       </div>
       <div className="flex flex-col items-center px-2">
-        <div className="text-center md:text-start mt-6">
+        <div className="text-center md:text-start mt-6 md:mt-[95px]">
           <div className="font-bold text-[15px] leading-[26px] md:text-[2rem] md:leading-[3.75rem] md:font-[800] ">
             Join the Future of Blockchain with TAR GLOBAL
           </div>
@@ -225,8 +225,8 @@ const Light: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col items-center md:gap-4 md:flex-row md:mt-20 justify-center relative">
-        <div className="relative">
+      <div className="w-full flex flex-col items-center md:gap-4 md:flex-row justify-between relative md:mt-[115px] -z-10">
+        <div className="relative z-[-10]">
           <div className="absolute bottom-[2.8rem] left-[19px] md:left-[25px] -z-100">
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
             <div className="hidden md:block w-[2px] h-[50px] bg-white"></div>
@@ -280,7 +280,7 @@ const Light: React.FC = () => {
           <img className="w-auto animate-bounce" src={float1} alt="float" />
         </div>
       </div>
-      <div className="mt-10">
+      <div className="md:flex flex-col gap-[20px] mt-10 md:mt-[95px]">
         <div className="font-bold md:text-[2.25rem] md:text-center md:leading-[4.5rem] md:font-[800]">
           Why Join the Alpha Pool?
         </div>
@@ -314,8 +314,8 @@ const Light: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center md:flex-row">
-          <div className="flex justify-center items-center w-[174px] md:w-[262px]">
+        <div className="flex flex-col justify-center items-center md:flex-row md:mt-[95px]">
+          <div className="flex justify-center items-center w-[174px] md:w-[262px] -z-10">
             <img src={rect29} className="absolute z-[-10]"></img>
             <img className="w-auto h-auto mt-6 animate-bounce" src={float} alt="light" />
           </div>
@@ -339,7 +339,7 @@ const Light: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="text-center mt-10">
+        <div className="text-center mt-10 md:mt-[95px]">
           <div className="font-bold md:text-[2.25rem] md:leading-[4.5rem] md:font-[800]">
             The Future of the Alpha Pool
           </div>

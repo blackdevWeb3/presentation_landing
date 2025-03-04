@@ -4,9 +4,12 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      
       backgroundImage: {
-        cs: "linear-gradient(90deg, #def4a2 30%, #88e5c8 70%)",
+        cs: "linear-gradient(135deg, #201340 4%, #0D0D78 60%)",
+        cg: "linear-gradient(135deg, #000000 44%, #080530 77%, #080b5e 100%)",
       },
+      
       width: {
         xs: "290px",
       },
